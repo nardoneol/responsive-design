@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+nav, footer {
+  background-color: grey;
+  height: 30px;
+}
+
+section {
+  padding: 10px;
+  width: 1000px;
+  height:335px;
+}
+
+.a {
+  background-color: #F13131;
+
+}
+
+.b {
+  background-color: #F19731;
+}
+
+.c {
+  background-color: #F1EE31;
+  width:450px;
+  height:670px;
+
+}
+main{
+  display:flex;
+}
+
+@media screen and (max-width 985px) {
+main{
+.a {
+  width:1000px;
+  height:300px;
+
+  .b {
+    width:1000px;
+    height:300px;
+
+    .c {
+      width:1000px;
+      height:300px;
+    }
+  }
+
+
+}
+  }
